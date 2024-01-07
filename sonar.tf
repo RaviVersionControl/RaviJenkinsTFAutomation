@@ -9,6 +9,7 @@ resource "aws_instance" "mySonarInstance" {
     }
 
  resource "aws_security_group" "sonar-sg-2022" {
+      id          = "sg-065d03c0b247132a3"
       name        = "security_sonar_group_2022"
       description = "security group for Sonar"
 
