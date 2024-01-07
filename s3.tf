@@ -1,6 +1,5 @@
 resource "aws_s3_bucket" "my-s3bucket" {
   bucket_prefix = var.bucket_prefix
-  region = var.aws_region
   acl = var.acl
   
    versioning {
